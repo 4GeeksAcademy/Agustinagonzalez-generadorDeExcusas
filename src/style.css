@@ -1,1 +1,26 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.contenedor {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.contenedor p {
+  font-size: 40px;
+}
+.boton {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.boton p {
+  align-items: center;
+}
+.boton:hover {
+  background-color: aquamarine;
+}
